@@ -1,6 +1,10 @@
 # GifsApp
 
+En este proyecto ponemos en practica una buena manera de organizar los proyectos. Tomando el patron de diseño de componentens.
+Este patron de diseño sirve para que los proyectos medianos y grandes sean escalables
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.1.
+
 
 ## Development server
 

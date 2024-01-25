@@ -10,6 +10,7 @@ import { SharedModule } from './shared/shared.module';
   declarations: [
     AppComponent
   ],
+  // Aqui van todos los modulos (.module) que tengamos
   imports: [
     BrowserModule,
     AppRoutingModule,
