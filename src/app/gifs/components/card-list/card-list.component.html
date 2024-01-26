@@ -2,7 +2,11 @@
   <!-- Aqui basicamente podemos aclarar que md es pantallas medianas y decimos que en el row ocupe 3 espacios en pantallas medias y 6 espacios en pantallas chicas -->
   <div *ngFor="let gif of gifs" class="col-md-3 col-sm-6">
     <div class="card mb-2 text-center bg-dark">
-      <!-- TODO: Crear imagen -->
+
+      <img
+      [src]="gif.images.downsized_medium.url"
+      [alt]="gif.title"
+      class="card-img-top">
 
       <div class="card-body text-white">
         <p class="card-text">
