@@ -10,7 +10,7 @@ export class HomePageComponent {
 
   constructor(private gifsService: GifsService){}
 
-  get gifs(): Gif[]{
+  get gifs():Gif[]{
     return this.gifsService.gifList;
   }
 }
